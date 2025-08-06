@@ -19,7 +19,7 @@ Security vulnerabilities should be reported privately to ensure responsible disc
 ### **Private Reporting Process**
 
 #### **1. Email Security Team**
-Send detailed vulnerability reports to: **security@quantum-forge.com**
+Send detailed vulnerability reports to: **quantumforge.ca**
 
 #### **2. Include Required Information**
 Your report should contain:
@@ -342,25 +342,7 @@ We acknowledge and thank security researchers who responsibly disclose vulnerabi
 - **HIPAA**: Healthcare data protection
 - **PCI DSS**: Payment card security
 
----
 
-## Security Resources
 
-### **Documentation**
-- [Security Best Practices](docs/SECURITY_BEST_PRACTICES.md)
-- [Cryptographic Guidelines](docs/CRYPTOGRAPHIC_GUIDELINES.md)
-- [Network Security](docs/NETWORK_SECURITY.md)
-
-### **Tools**
-- [Security Checklist](docs/SECURITY_CHECKLIST.md)
-- [Audit Procedures](docs/AUDIT_PROCEDURES.md)
-- [Incident Response Plan](docs/INCIDENT_RESPONSE.md)
-
-### **Training**
-- [Security Training Materials](docs/SECURITY_TRAINING.md)
-- [Code Review Guidelines](docs/CODE_REVIEW_SECURITY.md)
-- [Threat Modeling](docs/THREAT_MODELING.md)
-
----
 
 **Remember**: Security is everyone's responsibility. If you see something, say something! 
