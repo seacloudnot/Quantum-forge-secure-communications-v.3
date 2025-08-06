@@ -1,0 +1,126 @@
+# Production Configuration for Streamlined Secure Communications
+# Optimized for enterprise deployment with comprehensive monitoring and logging
+
+[logging]
+# Production logging configuration
+min_level = "info"
+console_enabled = false
+file_enabled = true
+log_dir = "/var/log/secure_comms"
+rotation = "daily"
+json_format = true
+performance_monitoring = true
+buffer_size = 16384
+audit_enabled = true
+max_file_size_mb = 500
+max_files = 30
+
+[monitoring]
+# Production monitoring configuration
+monitoring_interval_seconds = 10
+metrics_retention_hours = 168  # 7 days
+health_check_interval_seconds = 30
+detailed_profiling = true
+dashboard_enabled = true
+dashboard_refresh_interval_seconds = 5
+
+[alerts]
+# Alert thresholds for production
+cpu_threshold_percent = 80.0
+memory_threshold_percent = 85.0
+error_rate_threshold_percent = 2.0
+response_time_threshold_ms = 500
+connection_threshold = 5000
+email_alerts_enabled = true
+webhook_alerts_enabled = true
+alert_cooldown_seconds = 300
+
+[security]
+# Production security settings
+security_level = "maximum"
+entropy_sources = ["quantum", "timing", "environmental", "system"]
+threat_detection_enabled = true
+security_monitoring_enabled = true
+incident_response_enabled = true
+
+[performance]
+# Performance optimization settings
+max_connections = 10000
+connection_timeout_seconds = 30
+request_timeout_seconds = 60
+quantum_operations_per_second = 1000
+crypto_operations_per_second = 5000
+network_buffer_size = 65536
+
+[quantum]
+# Quantum system configuration
+max_qubits = 4
+error_correction = false
+quantum_hardware_detection = true
+simulation_fidelity = 0.98
+quantum_key_distribution = true
+bb84_protocol_enabled = true
+
+[crypto]
+# Cryptographic configuration
+pqc_algorithms = ["Kyber", "Dilithium", "SPHINCS+"]
+key_rotation_interval_hours = 24
+certificate_validation = true
+entropy_pool_size = 4096
+
+[network]
+# Network configuration
+bind_address = "0.0.0.0"
+port = 8443
+tls_enabled = true
+http2_enabled = true
+compression_enabled = true
+keepalive_timeout_seconds = 75
+
+[consensus]
+# Consensus protocol settings
+verification_methods = ["cryptographic", "quantum", "hash-based"]
+consensus_timeout_seconds = 30
+validator_count = 3
+byzantine_fault_tolerance = true
+
+[database]
+# Database configuration (if applicable)
+connection_pool_size = 50
+connection_timeout_seconds = 30
+query_timeout_seconds = 60
+transaction_timeout_seconds = 300
+
+[metrics]
+# Metrics collection settings
+prometheus_enabled = true
+prometheus_port = 9090
+metrics_namespace = "secure_comms"
+custom_metrics_enabled = true
+histogram_buckets = [0.005, 0.01, 0.025, 0.05, 0.1, 0.25, 0.5, 1.0, 2.5, 5.0, 10.0]
+
+[health_checks]
+# Health check configuration
+endpoint = "/health"
+detailed_endpoint = "/health/detailed"
+readiness_endpoint = "/ready"
+liveness_endpoint = "/live"
+startup_probe_enabled = true
+readiness_probe_enabled = true
+liveness_probe_enabled = true
+
+[backup]
+# Backup and recovery settings
+backup_enabled = true
+backup_interval_hours = 6
+backup_retention_days = 30
+encryption_enabled = true
+remote_backup_enabled = true
+
+[disaster_recovery]
+# Disaster recovery configuration
+failover_enabled = true
+replica_count = 3
+sync_mode = "synchronous"
+recovery_point_objective_minutes = 15
+recovery_time_objective_minutes = 60 
