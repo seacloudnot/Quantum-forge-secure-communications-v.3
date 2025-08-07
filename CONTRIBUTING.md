@@ -54,11 +54,10 @@ cargo clippy --all-targets -- -D warnings
 ```bash
 # Fork the repository on GitHub
 # Clone your fork
-git clone https://github.com/YOUR_USERNAME/secure-comms.git
+git clone https://github.com/seacloudnot/Quantum-forge-secure-communications-v.3
 cd secure-comms
 
-# Add upstream remote
-git remote add upstream https://github.com/quantum-forge/secure-comms.git
+
 ```
 
 #### **2. Create Feature Branch**
@@ -342,5 +341,6 @@ By contributing to this project, you agree that your contributions will be licen
 Thank you for contributing to the Quantum Forge Secure Communications System! Your contributions help make secure, quantum-enhanced communications accessible to everyone.
 
 ---
+
 
 **Need Help?** Open an issue or reach out to the maintainers. We're here to help! 
