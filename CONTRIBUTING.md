@@ -14,7 +14,6 @@ Thank you for your interest in contributing to the Quantum Forge Secure Communic
 ```bash
 # Clone the repository
 git clone https://github.com/quantum-forge/secure-comms.git
-cd secure-comms
 
 # Install dependencies
 cargo build
@@ -344,3 +343,4 @@ Thank you for contributing to the Quantum Forge Secure Communications System! Yo
 
 
 **Need Help?** Open an issue or reach out to the maintainers. We're here to help! 
+
