@@ -296,22 +296,6 @@ cargo fuzz run
 - **Monitoring**: Enhanced monitoring for similar issues
 - **Documentation**: Update security documentation
 
-## Security Contacts
-
-### **Primary Security Team**
-- **Email**: security@quantum-forge.com
-- **Response Time**: Within 24 hours
-- **PGP Key**: Available upon request
-
-### **Emergency Contacts**
-- **Critical Issues**: emergency@quantum-forge.com
-- **Response Time**: Within 4 hours
-- **Escalation**: Available for urgent matters
-
-### **Security Advisory List**
-- **Subscribe**: security-advisories@quantum-forge.com
-- **Frequency**: As needed for security updates
-- **Content**: Security patches and advisories
 
 ## Security Acknowledgments
 
@@ -346,3 +330,4 @@ We acknowledge and thank security researchers who responsibly disclose vulnerabi
 
 
 **Remember**: Security is everyone's responsibility. If you see something, say something! 
+
